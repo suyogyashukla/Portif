@@ -1,0 +1,170 @@
+/*
+ Theme Name:   Portif
+ Description:  Portif is a clean, modern, and animated free one-page parallax WordPress theme.
+ Author:       Suyogya Shukla
+ Author URI:   https://technobooz.com
+ Template:     zerif-lite
+ */
+
+
+h1,h2,h3{
+font-family: 'Libre Baskerville', serif!important;
+  font-weight: 200; 
+}
+h4,h5,a{
+  font-family: 'Montserrat', sans-serif!important;
+}
+a{
+  text-transform: none!important;
+}
+.header-content-wrap{
+    background-color: #fff;
+  }
+.intro-text{
+    text-transform: none;
+    color: #494949;
+
+  }
+.header.header > .navbar{
+    box-shadow:none;
+}
+.red-btn{
+    border-radius: 30px;
+    background-color:#3452ff;
+    box-shadow: 0 15px 25px 0 rgba(52,82,255,.25);
+}
+.red-btn:hover{
+    background-color: #526cff;
+    box-shadow:0 10px 25px 0 rgba(52,82,255,.25)
+}    
+.container .green-btn{
+    display:none!important;
+}
+.separator-one .green-btn{
+  border-radius: 30px;
+  background-color: #fff!important;
+  box-shadow: 10 40px 25px 0 rgba(52,82,255,.25)!important;
+}          
+.navbar-inverse .navbar-nav>li.current>a{
+    color:#494949;
+}
+li.current>a:before{
+    background: #3452ff!important;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color:#494949!important;
+}
+.section-header h2{
+    text-transform: none!important;
+    font-family: 'roboto', sans-serif;
+
+}
+.focus{
+    background:#f8f8f8;
+}
+@media screen and (min-width: 769px) .header-content-wrap {
+    padding: 275px 0 310px; 
+}
+.section-header .section-legend{
+    color:#808080!important;
+    font-size: 25px!important;
+
+}
+.focus-box h3{
+    font-family: 'roboto', sans-serif;
+    font-weight:500;
+    font-size: 25px;
+    text-transform: none!important;
+}
+
+.focus-box .service-icon{
+    border:none!Important;
+}
+#focus span:nth-child(4n+1) .focus-box .red-border-bottom:before, #focus span:nth-child(4n+2) .focus-box .red-border-bottom:before, #focus span:nth-child(4n+3) .focus-box .red-border-bottom:before, #focus span:nth-child(4n+4) .focus-box .red-border-bottom:before{
+    display:none!important;
+}
+.focus-box .service-icon .pixeden {
+    border-radius: 0!important;
+}
+.separator-one{
+    background:rgba(52, 82, 255, 0.8)!important;
+}
+a.btn.btn-primary.custom-button.green-btn{
+  color:#494949!important;
+}
+.separator-one .green-btn:hover{
+        background:rgba(255, 255, 255, 0.8)!important;
+}
+.about-us{
+        background:#f8f8f8!important;
+}
+.section-header h2, .about-us .big-intro{
+        color:#404040!important;
+}
+.skills{
+        display:none!important;
+}
+.our-team .row > span:nth-child(4n+1) .red-border-bottom:before, .our-team .row > span:nth-child(4n+2) .red-border-bottom:before, .our-team .row > span:nth-child(4n+3) .red-border-bottom:before, .our-team .row > span:nth-child(4n+4) .red-border-bottom:before{
+        background-color:#3452ff!important;
+}
+.testimonial{
+        background:rgba(52, 82, 255, 0.8)!important;
+}
+.testimonial .section-header h2{
+        color: #FFF!important;
+}
+.purchase-now{
+        background:#f8f8f8!important;
+}
+.purchase-now h3{
+        color:#404040!Important;
+}
+.purchase-now .red-btn{
+        background:#3452ff!important;
+}
+.testimonial .section-header .section-legend{
+        color: #FFF!important;
+}
+.contact-us{
+        background:rgba(52, 82, 255, 0.8)!important;
+}
+.contact-us .section-header h2, .contact-us .section-header .section-legend{
+        color:#FFF!important;
+}
+.pirate_forms .pirate-forms-submit-button{
+  border-radius: 30px;
+  background-color: #fff!important;
+  box-shadow: 10 40px 25px 0 rgba(62,102,450,.25)!important;
+}
+.pirate_forms .pirate-forms-submit-button{
+  color:#000!Important;
+}
+#footer, .copyright{
+  background-color:#f8f8f8!important;
+}
+.latesnews-content p, .latesnews-content{
+  background-color:#f8f8f8!important;
+}
+
+.header.header > .navbar.navbar-shadow {
+  box-shadow: 0px 15px 25px 0px rgba( 0, 0, 0, 0.1);
+}
+
+.focus-box:hover {
+  	background: white;
+      transition: 0.5s;
+      transition-timing-function: ease-in-out;
+      border-radius: 5px;
+	box-shadow: 0px 15px 25px 0px rgba( 0, 0, 0, 0.1);
+}
+.focus-box {
+      transition: 0.3s;
+      transition-timing-function: ease-in-out;
+}
+
+.navbar-shadow {
+      transition: 0.3s;
+      transition-timing-function: ease-in-out;
+}
+
+  
