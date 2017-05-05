@@ -14,3 +14,5 @@ if ( get_stylesheet() !== get_template() ) {
         return get_option( 'theme_mods_' . get_template(), $default );
     } );
 }
+wp_enqueue_script('custom_script', get_stylesheet_directory_uri() .'/js/scroll.js', array('jquery'),'1.1', true);
+?>
