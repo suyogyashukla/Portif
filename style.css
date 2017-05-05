@@ -109,6 +109,10 @@ a.btn.btn-primary.custom-button.green-btn{
 .our-team .row > span:nth-child(4n+1) .red-border-bottom:before, .our-team .row > span:nth-child(4n+2) .red-border-bottom:before, .our-team .row > span:nth-child(4n+3) .red-border-bottom:before, .our-team .row > span:nth-child(4n+4) .red-border-bottom:before{
         background-color:#3452ff!important;
 }
+.team-member h3{
+    font-weight: 100;
+    text-transform:none;
+}
 .testimonial{
         background:rgba(52, 82, 255, 0.8)!important;
 }
