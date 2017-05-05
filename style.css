@@ -8,7 +8,6 @@
  Version:      0.1
  */
 
-
 h1,h2,h3{
 font-family: 'Libre Baskerville', serif!important;
   font-weight: 200; 
@@ -65,7 +64,7 @@ li.current>a:before{
     background:#f8f8f8;
 }
 @media screen and (min-width: 769px) .header-content-wrap {
-    padding: 240px 0 310px;
+    padding: 240px 0 310px; 
 }
 .section-header .section-legend{
     color:#808080!important;
@@ -93,6 +92,7 @@ li.current>a:before{
 }
 a.btn.btn-primary.custom-button.green-btn{
   color:#494949!important;
+  box-shadow: 0px 10px 25px 10px rgba(255, 255, 255, 0.25);
 }
 .separator-one .green-btn:hover{
         background:rgba(255, 255, 255, 0.8)!important;
@@ -110,8 +110,8 @@ a.btn.btn-primary.custom-button.green-btn{
         background-color:#3452ff!important;
 }
 .team-member h3{
-    font-weight: 100;
-    text-transform:none;
+      font-weight: 100;
+      text-transform: none!important;
 }
 .testimonial{
         background:rgba(52, 82, 255, 0.8)!important;
@@ -150,8 +150,8 @@ a.btn.btn-primary.custom-button.green-btn{
 }
 .latesnews-content p, .latesnews-content{
   background-color:#f8f8f8!important;
+  padding-bottom: 3px;
 }
-
 .header.header > .navbar.navbar-shadow {
   box-shadow: 0px 15px 25px 0px rgba( 0, 0, 0, 0.1);
 }
