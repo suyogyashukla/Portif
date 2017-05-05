@@ -65,7 +65,7 @@ li.current>a:before{
     background:#f8f8f8;
 }
 @media screen and (min-width: 769px) .header-content-wrap {
-    padding: 275px 0 310px; 
+    padding: 240px 0 310px;
 }
 .section-header .section-legend{
     color:#808080!important;
