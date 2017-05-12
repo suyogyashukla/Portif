@@ -18,14 +18,17 @@ h4,h5,a{
 a{
   text-transform: none!important;
 }
+.home-header-wrap {
+	background: white;
+}
 .header-content-wrap{
-    background-color: #fff;
-  }
+    background-color: transparent !important;
+	position: relative !important;
+}
 .intro-text{
     text-transform: none;
     color: #494949;
-
-  }
+}
 .header.header > .navbar{
     box-shadow:none;
 }
@@ -174,3 +177,11 @@ a.btn.btn-primary.custom-button.green-btn{
 }
 
   
+.header-content-wrap,
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
