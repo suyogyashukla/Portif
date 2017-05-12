@@ -4,6 +4,8 @@ function child_enqueue_styles() {
     $parent_style = 'parent-style';
     wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
     wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( $parent_style ) );
+	wp_enqueue_script('particles-js', get_stylesheet_directory_uri() .'/js/particles.js', array('jquery'), '', true);
+	wp_enqueue_script('custom_script', get_stylesheet_directory_uri() .'/js/zerif.js', array('jquery'),'1.1', true);
 }
 if ( get_stylesheet() !== get_template() ) {
     add_filter( 'pre_update_option_theme_mods_' . get_stylesheet(), function ( $value, $old_value ) {
@@ -14,5 +16,7 @@ if ( get_stylesheet() !== get_template() ) {
         return get_option( 'theme_mods_' . get_template(), $default );
     } );
 }
-wp_enqueue_script('custom_script', get_stylesheet_directory_uri() .'/js/scroll.js', array('jquery'),'1.1', true);
-?>
+
+add_filter( 'zerif_ourfocus_first_icon_default_filter', 'ourfocus_override' );
+
+function ourfocus_override() { return get_stylesheet_directory_uri() . "/images/s1.png"; }
